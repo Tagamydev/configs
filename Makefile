@@ -1,3 +1,6 @@
+OSRCS	= .vim \
+		  .wallpapers \
+
 DSRCS	=	../.vim \
 		../.config/kitty \
 		../.wallpapers \
@@ -7,9 +10,8 @@ updt:
 	@cp -r $(DSRCS) ./
 	@cp $(FSRCS) ./
 pull:
-	@find . -type d -not -path "." -exec cp -r "{}" ../ \;
+	@cp -r $(OSRCS) ../
 	@cp -r kitty ../.config/
-	@find . -type f -not -path "." -exec cp "{}" ../ \;
 add:
 	@git add .
 commit:
