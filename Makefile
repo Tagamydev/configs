@@ -1,10 +1,10 @@
 DSRCS	=	../.vim \
+		../.config/kitty \
 		../.wallpapers \
 FSRCS	=	../.vimrc 
 
 updt:
 	@cp -r $(DSRCS) ./
-	@cp -r ../.config/kitty ./
 	@cp $(FSRCS) ./
 pull:
 	@find . -type d -not -path "." -exec cp -r "{}" ../ \;
