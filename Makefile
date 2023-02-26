@@ -4,7 +4,7 @@ FSRCS	=	../.vimrc
 
 updt:
 	@cp -r $(DSRCS) ./
-	@cp -r ../kitty ./
+	@cp -r ../.config/kitty ./
 	@cp $(FSRCS) ./
 pull:
 	@find . -type d -not -path "." -exec cp -r "{}" ../ \;
