@@ -159,6 +159,7 @@ return function(s)
       { "tz", "", "TZA" }, -- Tanzania
       { "ua", "", "UKR" }, -- Ukraine
       { "us", "English (United States)", "USA" }, -- USA
+      { "us -v dvorak", "us -v dvorak", "DVK" }, -- USA
       { "uz", "", "UZB" }, -- Uzbekistan
       { "vn", "", "VNM" }, -- Vietnam
       { "za", "", "ZAF" } -- South Africa

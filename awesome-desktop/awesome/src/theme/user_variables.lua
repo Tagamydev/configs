@@ -62,7 +62,7 @@ user_vars = {
   namestyle = "userhost",
 
   -- List every Keyboard layout you use here comma seperated. (run localectl list-keymaps to list all averiable keymaps)
-  kblayout = { "dvorak" },
+  kblayout = { "us", "es", "us -v dvorak" },
 
   -- Your filemanager that opens with super+e
   file_manager = "nautilus",
